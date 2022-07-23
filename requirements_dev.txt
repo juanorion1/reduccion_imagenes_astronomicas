@@ -4,3 +4,4 @@ pandas==1.4.3
 numpy
 matplotlib
 astropy==5.1
+pathlib==1.0.1
