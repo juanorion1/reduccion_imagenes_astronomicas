@@ -7,10 +7,9 @@ from src.imagen.utils import verify_zeros, verify_image
 
 class LFI:  #LoadFitsImage
     
-    def __init__(self, filtro:str):
+    def __init__(self):
         self.path = Path.cwd()
-        self.filtro = filtro
-
+        
     def load_image(self, path_imagenes: str):
         """
         This function load the image in the instance self.image
