@@ -3,7 +3,7 @@ from astropy.io import fits
 import numpy as np
 from pathlib import Path
 
-from src.imagen.utils import verify_zeros, verify_image
+from src.image.utils import verify_zeros, verify_image
 
 class LFI:  #LoadFitsImage
     
